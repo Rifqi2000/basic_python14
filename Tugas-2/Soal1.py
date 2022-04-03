@@ -1,5 +1,4 @@
-kontak = [["Rifqi","082133172777"]]
-tambah_kontak = []
+kontak = [["Rifqi", "082133172777"]]
 while True:
     print("--Menu--")
     print("1. Daftar Kontak")
@@ -9,10 +8,11 @@ while True:
     pilih = int(input("Pilih menu: "))
 
     if pilih == 1:
-        for i in range (len(kontak)):
-            print("Nama\t\t: ",kontak[i][0])
-            print("No Telepon\t: ",kontak[i][1])
-    elif pilih ==2:
+        for i in range(len(kontak)):
+            print("Nama\t\t: ", kontak[i][0])
+            print("No Telepon\t: ", kontak[i][1])
+    elif pilih == 2:
+        tambah_kontak = []
         nama = input("Nama\t\t: ")
         nomor = input("No Telepon\t: ")
         tambah_kontak.append(nama)
