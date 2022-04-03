@@ -1,12 +1,13 @@
-class Dog:
-    breed: None
+from method import *
 
-bulldog = Dog()
-chihuahua = Dog() #cara memanggil nama anjing
+bulldog = Dog("Bulldog", 5)  # object
+chihuahua = Dog("Chihuahua", 1)  # cara memanggil nama anjing
 
 
 # print(bulldog.breed)
-bulldog.breed ="Bulldog"
-chihuahua.breed ="Chihuahua"
+# bulldog.breed ="Bulldog"
+# chihuahua.breed ="Chihuahua"
 print(bulldog.breed)
-print(chihuahua.breed)
+print(chihuahua.age)
+bulldog.eat()
+chihuahua.sleep()
